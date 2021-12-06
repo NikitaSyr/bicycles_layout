@@ -16,6 +16,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 /*_________________________*/
 
 body{
+
     font-family: "Lato";
     color: rgb(132, 135, 137);
     text-align: center;
@@ -27,10 +28,12 @@ body{
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
 }
 .container{
     max-width: 100%;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 .site_header{
@@ -83,7 +86,7 @@ body{
 }
 .about__body{
     flex: 1 1 100%;
-    padding: 5% 16.7% 1.5%;
+    padding: 2.5% 16.7%;
 }
 .about__image{
     padding: 1% 0 3%;
@@ -97,6 +100,7 @@ body{
 }
 .photos__column{
     display: flex;
+    flex-direction: column;
 }
 .photos__row{
     display: flex;
