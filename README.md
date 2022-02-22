@@ -1,4 +1,4 @@
-# Первая вёрстка по макету
+# Вёрстка по макету
 Итоговый результат можно посмотреть на GitHub pages - 
 https://nikitasyr.github.io/bicycles_layout/
 
